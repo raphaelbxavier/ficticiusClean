@@ -7,10 +7,6 @@ empresa para realizar o cálculo de previsão de gastos.
 É necessário ter instalado o Maven para compilar e executar o projeto.
 * [Maven](https://maven.apache.org/) -> Link para fazer o download.
 
-O Spring Boot 2.1.6 foi utilizado como framework starter do projeto.
-* [Spring Boot](https://spring.io/) -> Link do site oficial da Spring.
-
-
 ## Primeiro Passo (Baixar o projeto do Git)
  Fazer o clone do projeto no gitHub, através do link abaixo:
 ```
@@ -29,7 +25,7 @@ mvn spring-boot:run
 
 * [Postman](https://www.postman.com/) -> Link para download do Postman.
 
-## Quarto Passo (testar os end-points da API)
+## Quarto Passo (Testar os End-Points)
 
 Criar uma ou várias chamadas POST no end-point, http://localhost:8080/veiculo/ , para criar um ou mais veículo(s) novo(s).
 
