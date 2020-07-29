@@ -2,7 +2,7 @@
 Criar uma API Rest de cadastro de veículos para armazenar os veículos utilizados pela
 empresa para realizar o cálculo de previsão de gastos.
 
-## É necessário ter instalado o Maven e o Java 8+ para compilar e executar o projeto.
+### É necessário ter instalado o Maven e o Java 8+ para compilar e executar o projeto.
 
 ## Primeiro Passo (Download ou Clone do projeto no Git)
  Fazer o download do projeto, ou clonar no gitHub via terminal através do comando abaixo:
