@@ -31,7 +31,7 @@ mvn spring-boot:run
 
 ## Quarto Passo (testar os end-points da API)
 
-Criar uma chamada POST no end-point, http://localhost:8080/veiculo/ , para criar um novo veículo.
+Criar uma ou várias chamadas POST no end-point, http://localhost:8080/veiculo/ , para criar um ou mais veículo(s) novo(s).
 
 Exemplo de requisição:
 
