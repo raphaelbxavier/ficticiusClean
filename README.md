@@ -8,7 +8,7 @@ empresa para realizar o cálculo de previsão de gastos.
 * [Maven](https://maven.apache.org/) -> Link para fazer o download.
 
 ## Primeiro Passo (Baixar o projeto do Git)
- Fazer o clone do projeto no gitHub, através do link abaixo:
+ Fazer o download do projeto, ou clonar no gitHub via terminal através do comando abaixo:
 ```
 git clone https://github.com/raphaelbxavier/ficticiusClean.git
 ```
