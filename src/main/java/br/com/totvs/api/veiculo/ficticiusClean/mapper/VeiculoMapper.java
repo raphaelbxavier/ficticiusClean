@@ -5,9 +5,7 @@ import br.com.totvs.api.veiculo.ficticiusClean.dto.ResponseDto;
 import br.com.totvs.api.veiculo.ficticiusClean.entity.Veiculo;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class VeiculoMapper {
@@ -36,18 +34,6 @@ public class VeiculoMapper {
         );
     }
 
-    private List<Veiculo> mapToListEntity(List<RequestDto> dtos) {
-        return dtos.stream()
-                .map(this::mapToEntity)
-                .collect(Collectors.toList());
-    }
-
-    private List<ResponseDto> mapToListDto(List<Veiculo> veiculos) {
-        return veiculos.stream()
-                .map(this::mapToDto)
-                .collect(Collectors.toList());
-    }
-
     public Veiculo toEntity(RequestDto dto) {
         return Optional.ofNullable(dto)
                 .map(this::mapToEntity)
@@ -57,18 +43,6 @@ public class VeiculoMapper {
     public ResponseDto toDto(Veiculo veiculo) {
         return Optional.ofNullable(veiculo)
                 .map(this::mapToDto)
-                .orElse(null);
-    }
-
-    public List<Veiculo> toListEntity(List<RequestDto> dtos) {
-        return Optional.ofNullable(dtos)
-                .map(this::mapToListEntity)
-                .orElse(null);
-    }
-
-    public List<ResponseDto> toListDto(List<Veiculo> veiculos) {
-        return Optional.ofNullable(veiculos)
-                .map(this::mapToListDto)
                 .orElse(null);
     }
 }
