@@ -29,13 +29,13 @@ public class VeiculoServiceImpl implements VeiculoService {
     }
 
     @Override
-    public List<ResponseDto> calcularGastos(float precoGasolina, float cidadeKm, float rodoviaKm) {
+    public List<ResponseDto> calcularGastos(Double precoGasolina, Double cidadeKm, Double rodoviaKm) {
         List<Veiculo> veiculos = veiculoRepository.findAll();
 
         List<ResponseDto> veiculosCalculados = veiculos.stream().map(veiculo -> {
-            float consumoRodovia = calculoConsumoService.calcularUso(rodoviaKm, veiculo.getConsumoMedioRodovia());
-            float consumoCidade = calculoConsumoService.calcularUso(cidadeKm, veiculo.getConsumoMedioCidade());
-            float precoTotal = calculoConsumoService.calcularPrecoTotal(precoGasolina, (consumoCidade + consumoRodovia));
+            Double consumoRodovia = calculoConsumoService.calcularUso(rodoviaKm, veiculo.getConsumoMedioRodovia());
+            Double consumoCidade = calculoConsumoService.calcularUso(cidadeKm, veiculo.getConsumoMedioCidade());
+            Double precoTotal = calculoConsumoService.calcularPrecoTotal(precoGasolina, (consumoCidade + consumoRodovia));
 
             ResponseDto responseDto = veiculoMapper.toDto(veiculo);
             responseDto.setTotal(precoTotal);

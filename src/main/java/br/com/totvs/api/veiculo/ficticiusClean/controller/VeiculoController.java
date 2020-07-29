@@ -29,9 +29,9 @@ public class VeiculoController {
     }
 
     @GetMapping(value = "/calcularGastos")
-    public ResponseEntity<List<ResponseDto>> calcularGastos(@RequestParam("precoGasolina") float precoGasolina,
-                                                            @RequestParam("totalKmCidade") float totalKmCidade,
-                                                            @RequestParam("totalKmRodovia") float totalKmRodovia){
+    public ResponseEntity<List<ResponseDto>> calcularGastos(@RequestParam("precoGasolina") Double precoGasolina,
+                                                            @RequestParam("totalKmCidade") Double totalKmCidade,
+                                                            @RequestParam("totalKmRodovia") Double totalKmRodovia){
 
         List<ResponseDto> responseDtos = veiculoService.calcularGastos(precoGasolina, totalKmCidade, totalKmRodovia);
 

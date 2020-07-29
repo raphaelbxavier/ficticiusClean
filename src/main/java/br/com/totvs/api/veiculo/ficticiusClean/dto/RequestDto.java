@@ -14,7 +14,7 @@ public class RequestDto {
     private final String marca;
     private final String modelo;
     private final LocalDate dataFabricacao;
-    private final Float consumoMedioCidade;
-    private final Float consumoMedioRodovia;
+    private final Double consumoMedioCidade;
+    private final Double consumoMedioRodovia;
 
 }

@@ -5,12 +5,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class CalculoConsumoServiceImpl implements CalculoConsumoService {
     @Override
-    public float calcularPrecoTotal(float precoCombustivel, float consumoCombustivel) {
+    public Double calcularPrecoTotal(Double precoCombustivel, Double consumoCombustivel) {
         return precoCombustivel * consumoCombustivel;
     }
 
     @Override
-    public float calcularUso(float distanciaPercorrida, float consumoMedia) {
+    public Double calcularUso(Double distanciaPercorrida, Double consumoMedia) {
         return distanciaPercorrida / consumoMedia;
     }
 }

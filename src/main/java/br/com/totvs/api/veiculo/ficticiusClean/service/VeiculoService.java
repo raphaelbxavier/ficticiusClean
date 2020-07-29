@@ -8,5 +8,5 @@ import java.util.List;
 public interface VeiculoService {
 
     ResponseDto salvar (Veiculo veiculo);
-    List<ResponseDto> calcularGastos(float precoGasolina, float cidadeKm, float rodoviaKm);
+    List<ResponseDto> calcularGastos(Double precoGasolina, Double cidadeKm, Double rodoviaKm);
 }

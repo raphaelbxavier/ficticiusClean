@@ -23,7 +23,7 @@ public class Veiculo {
     private String marca;
     private String modelo;
     private LocalDate dataFabricacao;
-    private Float consumoMedioCidade;
-    private Float consumoMedioRodovia;
+    private Double consumoMedioCidade;
+    private Double consumoMedioRodovia;
 
 }

@@ -12,15 +12,15 @@ public class ResponseDto implements Comparable{
     private final String marca;
     private final String modelo;
     private final LocalDate dataFabricacao;
-    private final Float consumoMedioCidade;
-    private final Float consumoMedioRodovia;
+    private final Double consumoMedioCidade;
+    private final Double consumoMedioRodovia;
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    private Float gastoCombustivel;
+    private Double gastoCombustivel;
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    private Float total;
+    private Double total;
 
-    public ResponseDto(Long id, String nome, String marca, String modelo, LocalDate dataFabricacao, Float consumoMedioCidade, Float consumoMedioRodovia) {
+    public ResponseDto(Long id, String nome, String marca, String modelo, LocalDate dataFabricacao, Double consumoMedioCidade, Double consumoMedioRodovia) {
         this.id = id;
         this.nome = nome;
         this.marca = marca;
