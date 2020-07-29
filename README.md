@@ -19,7 +19,7 @@ git clone https://github.com/raphaelbxavier/ficticiusClean.git
 
 ## Segundo Passo (Compilar e Executar o Projeto por linha comando maven)
 
-Acessar a raid da pasta do projeto que foi clonado e executar o comando:
+Acessar a pasta ficticiusClean que foi clonado e executar o comando:
 
 ```
 mvn spring-boot:run
