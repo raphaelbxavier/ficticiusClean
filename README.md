@@ -11,7 +11,7 @@ O Spring Boot 2.1.6 foi utilizado como framework starter do projeto.
 * [Spring Boot](https://spring.io/) -> Link do site oficial da Spring.
 
 
-## Primeiro Passo (Baixar o projeto do Git):
+## Primeiro Passo (Baixar o projeto do Git)
 Devemos clonar o projeto no gitHub, através do link abaixo:
 ```
 git clone https://github.com/raphaelbxavier/ficticiusClean.git
@@ -25,7 +25,7 @@ Deve acessar a pasta do projeto que foi clonado e executar o comando:
 mvn spring-boot:run
 ```
 
-## Terceiro Passo (Abrir o Postman ou ferramenta similar de testes de requisição. 
+## Terceiro Passo (Abrir o Postman ou ferramenta similar para testes de requisição em Api's)
 
 * [Postman](https://www.postman.com/) -> Link para download do Postman.
 
