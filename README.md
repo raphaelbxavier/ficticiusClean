@@ -50,13 +50,13 @@ Resposta esperada:
 
 ```
 {
-  "id" : 1
+  	"id" : 1
 	"nome" : "I30",
-	"marca": "Hyundai",
-	"modelo" : "2012",
-	"dataFabricacao": "2012-01-01",
-	"consumoMedioCidade": 6,
-	"consumoMedioRodovia": 12 
+  	"marca": "Hyundai",
+  	"modelo" : "2012",
+  	"dataFabricacao": "2012-01-01",
+  	"consumoMedioCidade": 6,
+  	"consumoMedioRodovia": 12 
 }
 
 ```
@@ -67,15 +67,15 @@ Resposta esperada:
 
 ```
 {
-  "id": 1,
-  "nome": "I30",
-  "marca": "Hyundai",
-  "modelo": "2012",
-  "dataFabricacao": "2012-01-01",
-  "consumoMedioCidade": 6,
-  "consumoMedioRodovia": 12,
-  "gastoCombustivel": 15,
-  "total": 57.149998 
+  	"id": 1,
+  	"nome": "I30",
+  	"marca": "Hyundai",
+  	"modelo": "2012",
+  	"dataFabricacao": "2012-01-01",
+  	"consumoMedioCidade": 6,
+  	"consumoMedioRodovia": 12,
+  	"gastoCombustivel": 15,
+  	"total": 57.149998 
 }
 
 ```
