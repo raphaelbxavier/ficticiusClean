@@ -12,14 +12,14 @@ O Spring Boot 2.1.6 foi utilizado como framework starter do projeto.
 
 
 ## Primeiro Passo (Baixar o projeto do Git)
-Devemos clonar o projeto no gitHub, através do link abaixo:
+ Fazer o clone do projeto no gitHub, através do link abaixo:
 ```
 git clone https://github.com/raphaelbxavier/ficticiusClean.git
 ```
 
 ## Segundo Passo (Compilar e Executar o Projeto por linha comando maven)
 
-Deve acessar a pasta do projeto que foi clonado e executar o comando:
+Acessar a raid da pasta do projeto que foi clonado e executar o comando:
 
 ```
 mvn spring-boot:run
