@@ -1,5 +1,6 @@
-# ficticiusClean - Desafio Java Backend Fluig
-Api REST de cadastro de veículos utilizados em uma pela empresa, que calcula a previsão de gastos.
+# Desafio Java Backend Fluig - “Ficticius Clean”
+Criar uma API Rest de cadastro de veículos para armazenar os veículos utilizados pela
+empresa para realizar o cálculo de previsão de gastos.
 
 ### Ferramentas e Frameworks para testar a API:
 
