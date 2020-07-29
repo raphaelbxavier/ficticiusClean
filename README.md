@@ -2,9 +2,7 @@
 Criar uma API Rest de cadastro de veículos para armazenar os veículos utilizados pela
 empresa para realizar o cálculo de previsão de gastos.
 
-### Ferramentas e Frameworks para testar a API:
-
-É necessário ter instalado o Maven para compilar e executar o projeto.
+## É necessário ter instalado o Maven para compilar e executar o projeto.
 * [Maven](https://maven.apache.org/) -> Link para fazer o download.
 
 ## Primeiro Passo (Download ou Clone do projeto no Git)
