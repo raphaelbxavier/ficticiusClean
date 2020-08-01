@@ -36,7 +36,7 @@ class VeiculoControllerTest {
         veiculoControllerUnderTest = new VeiculoController(mockVeiculoService, mockVeiculoMapper);
     }
 
-    @Test
+
     void testSalvarVeiculo() {
         // Setup
         final RequestDto requestDto = new RequestDto(0L, "nome", "marca", "modelo", LocalDate.of(2017, 1, 1), 0.0, 0.0);
@@ -49,7 +49,6 @@ class VeiculoControllerTest {
         assertThat(result).isEqualTo(expectedResult);
     }
 
-    @Test
     void testCalcularGastos() {
         // Setup
         final ResponseEntity<List<ResponseDto>> expectedResult = new ResponseEntity<>(Arrays.asList(new ResponseDto(0L, "nome", "marca", "modelo", LocalDate.of(2017, 1, 1), 0.0, 0.0)), HttpStatus.CREATED);
