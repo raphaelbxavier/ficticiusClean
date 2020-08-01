@@ -55,7 +55,7 @@ Resposta esperada:
 
 ```
 
-Criar uma chamada GET para: http://localhost:8080/veiculo/calcularGastos?precoGasolina=3.81&totalKmCidade=30&totalKmRodovia=120 , enviando os parâmetros precoGasolina, totalKmCidade e totalKmRodovia via queryParams.
+Criar uma chamada GET para: http://localhost:8080/veiculo/calcularGastos?precoGasolina=3.81&totalKmCidade=30&totalKmRodovia=120 , enviando os parâmetros precoGasolina, totalKmCidade e totalKmRodovia via queryParams. Se tiver mais de um veículo cadastrado, a ordenação será por gasto de combustível.
 
 Resposta esperada:
 
